@@ -1,0 +1,131 @@
+<html>
+    <head>
+<title>Welcome To My First To Do List Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="toDoListCss.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="myScripts.js"></script>
+    </head>
+
+
+<body background="images/background.jpg">
+<div class="container">
+
+
+<br>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" align="center"> <h1 >My TO-Do List</h1></div>
+        </div>
+    <br>
+
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="to-do-list-box">
+
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" align="center"> <img  id="centerIMG" src="images/DreamCature.jpg"  width=10 height=170>
+                     <h2 align="center" > Life  Is <br>&nbsp; &nbsp; All  About<br>&nbsp;  BALANCE ...  </h2>
+                     <hr>
+                        </div>
+                    </div>
+
+
+
+
+
+            <div class="row">
+                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" align="center">
+                      <div class="txt-Area-and-add-icon">
+                           <input  type="textArea"   id="myInput" placeholder="  Type Your Task ... ">
+                           <i class="fa fa-plus" onclick="newRow()"></i>
+                      </div>
+                 </div>
+            </div>
+
+
+
+           <div class="row">
+
+
+
+
+
+
+
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                   <table id="myTable" >
+                      <thead >
+                         <th class="col-sm-3 col-md-3 col-lg-3 col-xl-3" ></th>
+                         <th class="col-sm-3 col-md-3 col-lg-3 col-xl-3"></th>
+                         <th class="col-sm-3 col-md-3 col-lg-3 col-xl-3"></th>
+                         <th class="col-sm-3 col-md-3 col-lg-3 col-xl-3"></th>
+                     </thead>
+                   </table>
+               </div>
+           </div>
+
+ <br><br><br><br>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"><h4 > Rate Your Progress For Today !</h4></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"> <div class="count">
+                        <div class="stars">
+                            <form action="">
+                                <input class="star star-5" id="star-5-2" type="radio" name="star">
+                                <label class="star star-5" for="star-5-2"></label>
+                                <input class="star star-4" id="star-4-2" type="radio" name="star">
+                                <label class="star star-4" for="star-4-2"></label>
+                                <input class="star star-3" id="star-3-2" type="radio" name="star">
+                                <label class="star star-3" for="star-3-2"></label>
+                                <input class="star star-2" id="star-2-2" type="radio" name="star">
+                                <label class="star star-2" for="star-2-2"></label>
+                                <input class="star star-1" id="star-1-2" type="radio" name="star">
+                                <label class="star star-1" for="star-1-2"></label>
+                            </form>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row" >
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" align="center">
+                       <h6>Send Your Tasks to Email</h6>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" align="center">
+                        <i class="fa fa-envelope" onclick="sendMail()" ></i>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
